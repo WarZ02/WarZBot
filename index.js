@@ -12,4 +12,4 @@ client.on("guildMemberAdd", async guildMember => {
     guildMember.roles.add(welcomeRole);
 });
 
-client.login(process.en.TOKEN);
+client.login(process.env.TOKEN);
